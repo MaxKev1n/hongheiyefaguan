@@ -46,7 +46,6 @@ mainform::mainform(QWidget *parent) : QMainWindow(parent)
     image = new QLabel(this);
     image->move(70, 100);
     image->resize(300,300);
-    image->setText("ni");
     image->setStyleSheet("QLabel{border:5px solid #242424;}");
     connect(next, &QPushButton::clicked, this, &mainform::change);
 
@@ -401,7 +400,6 @@ void mainform::change()
         sendp->setVisible(true);
         playername->setVisible(true);
         image->setPixmap(QPixmap::fromImage(*p[n].img));
-        qDebug()<<"?1";
         QString s = QString("%1号玩家").arg(p[n].number + 1);
         playername->setText(s);
         if(!p[n].life){

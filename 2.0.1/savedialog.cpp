@@ -14,6 +14,7 @@ savedialog::savedialog(QDialog *parent) : QDialog(parent)
 }
 
 void savedialog::begin(){
+    listWidget->clear();
     QString path1 = QDir::currentPath();
     int i = 1;
     while(1){
