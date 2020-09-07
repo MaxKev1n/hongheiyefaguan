@@ -49,7 +49,7 @@ C++个人课程设计
 * 实现存档删除功能
 * ~~**已知bug:使用读档时会导致闪退**~~
 ## V2.0.2(2020/09/07 11：45)
-* **调试过程中，调试器提示:*****Signal name: SIGSEGV - Signal meaning: Segmentation Fault***  
+* **调试过程中，调试器提示:** ***Signal name: SIGSEGV - Signal meaning: Segmentation Fault***  
 * 经过调试，发现player类的QImage使用了指针，读档时并未new QImage导致指针丢失而发生错误
 ## VFinal Project(2020/09/07 11：52)
 * **完成最终文件**
