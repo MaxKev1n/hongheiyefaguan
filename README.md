@@ -53,4 +53,4 @@ C++个人课程设计
 * 经过调试，发现player类的QImage使用了指针，读档时并未new QImage导致指针丢失而发生错误
 ## VFinal Project(2020/09/07 11：52)
 * **完成最终文件**
-## **WARNING：mainform.cpp、mainform.h、mainform.ui为错误上传文件**
+
